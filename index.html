@@ -1,1 +1,21 @@
-<h1>Novalumo.com</h1>
+<!-- <meta http-equiv="refresh" content="0; url=https://www.novalumo.llc"> -->
+<meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link rel="stylesheet" href="./style.css">
+<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+<main>
+  <img src="./assets/logo.svg" alt="logo" width="280px">
+  <div class="inline">
+    <h2>has</h2> <h1>Novalumo.com</h1>
+  </div>
+  <p>We are going to change our main domain, novalumo.llc to novalumo.com in 2023.</p>
+  <p>Until then, you will be redirected to the <a href="https://www.novalumo.llc">present website</a>.</p>
+  <small>Redirect to the page in 30 seconds...</small>
+</main>
+
+<script>
+function moveTo() {
+  location.href = 'https://www.novalumo.llc/'
+}
+setTimeout(moveTo, 1000 * 30)
+</script>
